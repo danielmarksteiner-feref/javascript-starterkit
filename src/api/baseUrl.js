@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3002/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3002/' : 'https://fast-meadow-42810.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
